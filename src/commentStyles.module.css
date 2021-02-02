@@ -1,0 +1,100 @@
+html {
+   font-family: "Anton", "Charcoal", sans-serif;
+}
+
+button {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.comment {
+  max-width: max-content;
+}
+
+.main_cont {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: solid 1px #ccc;
+  padding: .25em;
+  border-radius: 4px;
+  background: #f0f2f2;
+  position: relative;
+}
+
+.author {
+  font-size: .8em;
+  padding: 0 .25em;
+  font-weight: lighter;
+}
+
+.text {
+  padding: .25em .25em .5em .25em;
+  background: #ffff
+}
+
+.date {
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding: .25em .25em .5em .25em;
+
+}
+
+.high_emphasis {
+  background: #3b58d9;
+  color:white;
+  min-width: 4em;
+  padding: .5em;
+  border-radius: 4px;
+  margin-left: .25em
+}
+
+.medium_emphasis {
+  border: solid .1em #ddd;
+  color: #3b58d9;
+  min-width: 4em;
+  padding: .5em;
+  border-radius: 4px
+}
+
+.low_emphasis {
+  color: #3b58d9;
+  min-width: max-content;
+  padding: .5em .25em;
+  border-radius: 4px;
+  max-width: 4em;
+}
+
+.time {
+  margin-top: -1em
+}
+
+.share {
+  margin-right: .25em;
+}
+
+.top_cont {
+  display:flex;
+  flex-flow: column;
+    border-bottom: solid 1px #ddd;
+}
+
+.top_upper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: .25em
+
+}
+
+.bottom_cont {
+   display:flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
+  padding-top: .25em;
+  border-top: solid 1px #ddd;
+
+}
